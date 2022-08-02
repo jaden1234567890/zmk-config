@@ -65,7 +65,7 @@
 	&kp TAB &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
 	&kp CAPS &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans 
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UP 
-	&trans    &trans   &trans              &trans                         &trans    &kp LEFT    &kp DOWN  &kp RIGHT 
+	&trans    &trans   &trans              &kp SPACE                  &trans    &kp LEFT    &kp DOWN  &kp RIGHT 
 			>;
 		};
 
