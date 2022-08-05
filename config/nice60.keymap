@@ -48,7 +48,7 @@
 	&trans &kp ESC &kp LC(W) &kp LC(E) &kp LC(R) &kp LC(T) &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &trans &trans &trans 
 	&kp CAPS &kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F) &kp LC(G) &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans 
 	&trans &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(B) &kp LC(N) &trans &trans &trans &trans &kp UP 
-	&tog GAME    &trans   &trans              &trans                         &trans    &kp LEFT   &kp DOWN  &kp RIGHT 
+	&trans    &trans   &trans              &trans                         &trans    &kp LEFT   &kp DOWN  &kp RIGHT 
 			>;
 		};
 
@@ -65,7 +65,7 @@
 	&kp TAB &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
 	&kp CAPS &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans 
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UP 
-	&trans    &trans   &trans              &kp SPACE                  &trans    &kp LEFT    &kp DOWN  &kp RIGHT 
+	&trans    &trans   &trans              &kp SPACE                  &mo MAN    &kp LEFT    &kp DOWN  &kp RIGHT 
 			>;
 		};
 
@@ -83,7 +83,7 @@
 	&bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &trans   &trans  &trans          &bootloader 
 	&bt BT_SEL 1   &kp LEFT  &kp DOWN  &kp RIGHT &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans   &trans   &trans   &trans        &rgb_ug RGB_EFF
 	&bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans
-	&bt BT_SEL 3  &trans   &trans                            &rgb_ug RGB_TOG                                      &kp PSCRN      &trans      &trans               &kp DEL
+	&bt BT_SEL 3  &tog GAME   &trans                            &rgb_ug RGB_TOG                                      &kp PSCRN      &trans      &trans               &kp DEL
 			>;
 		};
 	};
