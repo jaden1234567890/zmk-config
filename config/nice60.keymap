@@ -2,6 +2,9 @@
  * Copyright (c) 2021 Nick Winans
  *
  * SPDX-License-Identifier: MIT
+ * See
+ * https://zmk.dev/docs/behaviors/key-press for behaviors and
+ * https://zmk.dev/docs/codes for codes
  */
 
 #include <behaviors.dtsi>
